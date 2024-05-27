@@ -1,6 +1,7 @@
 import { useState } from "react";
 import navbarLogo from "../../assets/navbar.png";
 import myself from "../../assets/myself.png";
+import resume from "../../assets/resume.pdf";
 
 function Header() {
   return (
@@ -9,9 +10,9 @@ function Header() {
         <div className="container max-w-screen-xl mx-auto px-4">
           <nav className="flex items-center justify-between mb-40">
             <img src={navbarLogo} className="logo" alt="Logo" />
-            <button className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
+            <a href={resume} download className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
               Get my CV
-            </button>
+            </a>
           </nav>
 
           <div className="text-center">
@@ -28,8 +29,7 @@ function Header() {
             </h1>
 
             <p className="font-normal text-gray-600 text-md md:text-xl mb-16">
-              I have a passion for software. I enjoy creating tools that make
-              life easier for people.
+              I take pleasure in developing strong solutions that simplify life for people.
             </p>
 
             <a

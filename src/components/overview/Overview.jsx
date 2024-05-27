@@ -17,9 +17,7 @@ function Overview() {
                 High experience
               </h4>
               <p className="font-normal text-gray-500 text-md">
-                Lorem ipsum dolor sit amet, consectetur <br />
-                adipiscing elit, sed do eiusmod tempor <br />
-                incididunt ut labore et dolore magna aliqua.
+                An experienced developer who always focuses on quality development. 
               </p>
             </div>
             <div className="bg-gray-50 px-8 py-10 rounded-md">
@@ -28,13 +26,11 @@ function Overview() {
               </div>
 
               <h4 className="font-medium text-gray-700 text-lg mb-4">
-                Useful sandboxes
+                Reliability
               </h4>
 
               <p className="font-normal text-gray-500 text-md">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
+                The delivery always meets expectations on time. 
               </p>
             </div>
             <div className="bg-gray-50 px-8 py-10 rounded-md">
@@ -43,13 +39,11 @@ function Overview() {
               </div>
 
               <h4 className="font-medium text-gray-700 text-lg mb-4">
-                Success side projects
+                Success
               </h4>
 
               <p className="font-normal text-gray-500 text-md">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
+                Success entails not just flawless delivery, but also delighted end users.
               </p>
             </div>
           </div>

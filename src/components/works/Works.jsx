@@ -8,12 +8,12 @@ function Works() {
           <div className="flex flex-col lg:flex-row justify-between">
             <div className="mb-10 lg:mb-0">
               <h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
-                Portfolio
+                Projects
               </h1>
 
               <p className="font-normal text-gray-500 text-xs md:text-base">
-                I have brought here my biggest and favorite works <br /> as a
-                professional.
+                Behold my most significant <br /> and cherished professional
+                works.
               </p>
             </div>
 
@@ -27,13 +27,12 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    Demo API Generator
+                    Traffic Sign Detection and Recognition <br />
+                    using Mean Shift and Hog Descriptor <br /> (Python OpenCV)
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
-                    A dummy data free and documented API generator to facilitate{" "}
-                    <br /> the process of testing the front-end portion of
-                    projects.
+                    A system to detect and recognize road signs from a moving vehicle.
                   </p>
                 </div>
               </div>
@@ -47,13 +46,14 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    Demo API Generator
+                    Seating allocation builder <br /> for Event Booking system
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
-                    A dummy data free and documented API generator to facilitate{" "}
-                    <br /> the process of testing the front-end portion of
-                    projects.
+                    A complete builder where the event admin will draw tables
+                    and seats and <br />
+                    allocate categories. Attendees will pick seats based on
+                    given categories.
                   </p>
                 </div>
               </div>
@@ -67,16 +67,99 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    Demo API Generator
+                    Email template & pdf invoice <br />
+                    builder for Exsited app
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
-                    A dummy data free and documented API generator to facilitate{" "}
-                    <br /> the process of testing the front-end portion of
-                    projects.
+                    Exsited app supports designing email templates with this
+                    drag-and-drop <br />
+                    builder. This app also contains the feature to auto-generate
+                    design <br />
+                    through OpenAI API by asking basic questions.
                   </p>
                 </div>
               </div>
+              <div className="flex space-x-6">
+                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
+                  04
+                </h1>
+
+                <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                <div>
+                  <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                    Voice clone app backend <br /> (Python Fast API, OAuth2, <br />
+                    Middleware, OpenAPI for <br /> Swagger UI)
+                  </h1>
+
+                  <p className="font-normal text-gray-500 text-sm md:text-base">
+                    It was developed with Resemble AI integration to clone voices through AI <br />
+                    for the university app.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex space-x-6">
+                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
+                  05
+                </h1>
+
+                <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                <div>
+                  <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                    AWS Rekognition real-time <br /> face detection from live stream
+                    <br /> video (AWS rekognition <br /> Python SDK)
+                  </h1>
+
+                  <p className="font-normal text-gray-500 text-sm md:text-base">
+                    A system to detect and recognize student's attendance in <br />
+                    university events and create a dynamic gallery.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex space-x-6">
+                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
+                  06
+                </h1>
+
+                <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                <div>
+                  <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                    WordPress Media Storage to Cloud <br /> for Amazon S3, <br /> Google
+                    Cloud Storage, <br /> DigitalOcean and More
+                  </h1>
+
+                  <p className="font-normal text-gray-500 text-sm md:text-base">
+                    This plugin will help back up or host site media and assets through <br />
+                    provided cloud storage services through the complete authentication <br />
+                    process. 
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex space-x-6">
+                <h1 className="font-normal text-gray-700 text-3xl md:text-4xl">
+                  07
+                </h1>
+
+                <span className="w-28 h-0.5 bg-gray-300 mt-5"></span>
+
+                <div>
+                  <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
+                    WP VR 360 panorama and virtual <br /> tour creator for
+                    WordPress
+                  </h1>
+
+                  <p className="font-normal text-gray-500 text-sm md:text-base">
+                    This plugin will help developers create <br /> virtual tours for their website.
+                  </p>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
