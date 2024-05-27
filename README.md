@@ -12,9 +12,6 @@ A simple portfolio app with React, Tailwind & Magic UI.
   - [`npm run build` / `yarn build`](#npm-run-build--yarn-build)
   - [`npm run serve` / `yarn serve`](#npm-run-serve--yarn-serve)
   - [`npm run lint` / `yarn lint`](#npm-run-lint--yarn-lint)
-- [Project Structure](#project-structure)
-  - [Key Files and Directories](#key-files-and-directories)
-- [Configuration](#configuration)
 - [Deploying](#deploying)
 
 ## Getting Started
@@ -59,25 +56,6 @@ Locally preview the production build.
 
 Runs ESLint for code quality and formatting checks.
 
-## Project Structure
-
-## Key Files and Directories
-my-app/
-├── node_modules/
-├── public/
-│ ├── favicon.ico
-│ └── index.html
-├── src/
-│ ├── assets/
-│ ├── components/
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-├── .gitignore
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
 
 ## Deploying
 ```sh
