@@ -51,8 +51,8 @@ function Works() {
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
                     A complete builder where the event admin will draw tables
-                    and seats and <br />
-                    allocate categories. Attendees will pick seats based on
+                    and seats with <br />
+                    allocating categories. Attendees will pick seats based on those
                     given categories.
                   </p>
                 </div>
