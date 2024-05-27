@@ -1,4 +1,4 @@
-# Sakibs Portfolio
+# Sakib's Portfolio
 
 A simple portfolio app with React, Tailwind & Magic UI. 
 
