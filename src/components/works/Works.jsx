@@ -95,7 +95,7 @@ function Works() {
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
                     It was developed with Resemble AI integration to clone voices through AI <br />
-                    for the university app.
+                    as an integration service.
                   </p>
                 </div>
               </div>
