@@ -10,96 +10,32 @@ function Testimonial() {
           </h1>
 
           <p className="font-normal text-gray-500 text-xs md:text-base mb-10 md:mb-20">
-            Below is a summary of the places I studied
+            Here are some words from my bosses
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div className="bg-gray-50 px-8 py-10 rounded-md">
               <p className="font-normal text-gray-500 text-md mb-4">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
+                Sakib, when you win, I win.
               </p>
 
               <h6 className="font-semibold text-gray-500 text-md">
-                Stephan Clark{" "}
+                Ashiq Rahman{" "}
                 <span className="font-medium text-gray-300 text-sm">
-                  - CEO at EarlyBird
+                  - MD at WebAlive
                 </span>
               </h6>
             </div>
 
             <div className="bg-gray-50 px-8 py-10 rounded-md">
               <p className="font-normal text-gray-500 text-md mb-4">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
+                Our young, unstoppable.
               </p>
 
               <h6 className="font-semibold text-gray-500 text-md">
-                Stephan Clark{" "}
+                Lincoln Islam{" "}
                 <span className="font-medium text-gray-300 text-sm">
-                  - CEO at EarlyBird
-                </span>
-              </h6>
-            </div>
-
-            <div className="bg-gray-50 px-8 py-10 rounded-md">
-              <p className="font-normal text-gray-500 text-md mb-4">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-
-              <h6 className="font-semibold text-gray-500 text-md">
-                Stephan Clark{" "}
-                <span className="font-medium text-gray-300 text-sm">
-                  - CEO at EarlyBird
-                </span>
-              </h6>
-            </div>
-
-            <div className="bg-gray-50 px-8 py-10 rounded-md">
-              <p className="font-normal text-gray-500 text-md mb-4">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-
-              <h6 className="font-semibold text-gray-500 text-md">
-                Stephan Clark{" "}
-                <span className="font-medium text-gray-300 text-sm">
-                  - CEO at EarlyBird
-                </span>
-              </h6>
-            </div>
-
-            <div className="bg-gray-50 px-8 py-10 rounded-md">
-              <p className="font-normal text-gray-500 text-md mb-4">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-
-              <h6 className="font-semibold text-gray-500 text-md">
-                Stephan Clark{" "}
-                <span className="font-medium text-gray-300 text-sm">
-                  - CEO at EarlyBird
-                </span>
-              </h6>
-            </div>
-
-            <div className="bg-gray-50 px-8 py-10 rounded-md">
-              <p className="font-normal text-gray-500 text-md mb-4">
-                Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit,
-                sed do eiusmod tempor <br /> incididunt ut labore et dolore
-                magna aliqua.
-              </p>
-
-              <h6 className="font-semibold text-gray-500 text-md">
-                Stephan Clark{" "}
-                <span className="font-medium text-gray-300 text-sm">
-                  - CEO at EarlyBird
+                  - Owner at Code Rex
                 </span>
               </h6>
             </div>

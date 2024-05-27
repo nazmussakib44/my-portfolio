@@ -28,7 +28,7 @@ function Works() {
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
                     Traffic Sign Detection and Recognition <br />
-                    using Mean Shift and Hog Descriptor <br /> (Python OpenCV)
+                    Using Mean Shift and Hog Descriptor <br /> (Python OpenCV)
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
@@ -46,7 +46,7 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    Seating allocation builder <br /> for Event Booking system
+                    Seating Allocation Builder <br /> for Event Bookings App
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
@@ -67,8 +67,8 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    Email template & pdf invoice <br />
-                    builder for Exsited app
+                    Email Template & PDF Invoice <br />
+                    Builder for Exsited App
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
@@ -89,7 +89,7 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    Voice clone app backend <br /> (Python Fast API, OAuth2, <br />
+                    Voice Clone Service Back-End <br /> (Python Fast API, OAuth2, <br />
                     Middleware, OpenAPI for <br /> Swagger UI)
                   </h1>
 
@@ -109,8 +109,8 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    AWS Rekognition real-time <br /> face detection from live stream
-                    <br /> video (AWS rekognition <br /> Python SDK)
+                    AWS Rekognition Real Time <br /> Face Detection from Live Stream
+                    <br /> Video (AWS Rekognition <br /> Python SDK)
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
@@ -134,7 +134,7 @@ function Works() {
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
-                    This plugin will help back up or host site media and assets through <br />
+                    This plugin help back up or host site media and assets through <br />
                     provided cloud storage services through the complete authentication <br />
                     process. 
                   </p>
@@ -150,12 +150,12 @@ function Works() {
 
                 <div>
                   <h1 className="font-normal text-gray-700 text-3xl md:text-4xl mb-5">
-                    WP VR 360 panorama and virtual <br /> tour creator for
+                    WP VR 360 Panorama and Virtual <br /> Tour Creator for
                     WordPress
                   </h1>
 
                   <p className="font-normal text-gray-500 text-sm md:text-base">
-                    This plugin will help developers create <br /> virtual tours for their website.
+                    This plugin help users to create <br /> virtual tours to showcase their business.
                   </p>
                 </div>
               </div>

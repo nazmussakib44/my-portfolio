@@ -10,7 +10,7 @@ function Experience() {
           </h1>
 
           <p className="font-normal text-gray-500 text-xs md:text-base mb-20">
-            Below is a summary of the places I studied
+            Below is a summary of the places where I worked.
           </p>
 
           <div className="flex flex-col lg:flex-row justify-between">
@@ -20,28 +20,28 @@ function Experience() {
               </h6>
 
               <p className="font-semibold text-gray-600 text-base">
-                Massa Fames{" "}
-                <span className="font-normal text-gray-300">/ New York</span>
+                Code Rex
+                <span className="font-normal text-gray-300">/ Dhaka</span>
               </p>
 
               <p className="font-semibold text-gray-600 text-base">
-                Massa Fames{" "}
-                <span className="font-normal text-gray-300">/ New York</span>
+                WebAlive{" "}
+                <span className="font-normal text-gray-300">/ Melbourne</span>
               </p>
 
               <p className="font-semibold text-gray-600 text-base">
-                Massa Fames{" "}
-                <span className="font-normal text-gray-300">/ New York</span>
+                Bit Mascot{" "}
+                <span className="font-normal text-gray-300">/ Dhaka</span>
               </p>
 
               <p className="font-semibold text-gray-600 text-base">
-                Massa Fames{" "}
-                <span className="font-normal text-gray-300">/ New York</span>
+                Code Rex{" "}
+                <span className="font-normal text-gray-300">/ Dhaka</span>
               </p>
 
               <p className="font-semibold text-gray-600 text-base">
-                Massa Fames{" "}
-                <span className="font-normal text-gray-300">/ New York</span>
+                Code Rex{" "}
+                <span className="font-normal text-gray-300">/ Dhaka</span>
               </p>
             </div>
 
@@ -51,23 +51,23 @@ function Experience() {
               </h6>
 
               <p className="font-normal text-gray-400 text-base">
-                Junior Front-End Developer
+                Innovation Engineer
               </p>
 
               <p className="font-normal text-gray-400 text-base">
-                Junior Front-End Developer
+                Senior Software Engineer
               </p>
 
               <p className="font-normal text-gray-400 text-base">
-                Junior Front-End Developer
+                Software Engineer
               </p>
 
               <p className="font-normal text-gray-400 text-base">
-                Junior Front-End Developer
+                Software Engineer
               </p>
 
               <p className="font-normal text-gray-400 text-base">
-                Junior Front-End Developer
+                Junior Software Developer
               </p>
             </div>
 
@@ -76,15 +76,15 @@ function Experience() {
                 Year
               </h6>
 
-              <p className="font-normal text-gray-400 text-base">2016</p>
+              <p className="font-normal text-gray-400 text-base">Present</p>
 
-              <p className="font-normal text-gray-400 text-base">2016</p>
+              <p className="font-normal text-gray-400 text-base">2023</p>
 
-              <p className="font-normal text-gray-400 text-base">2016</p>
+              <p className="font-normal text-gray-400 text-base">2021</p>
 
-              <p className="font-normal text-gray-400 text-base">2016</p>
+              <p className="font-normal text-gray-400 text-base">2019</p>
 
-              <p className="font-normal text-gray-400 text-base">2016</p>
+              <p className="font-normal text-gray-400 text-base">2017</p>
             </div>
           </div>
         </div>
