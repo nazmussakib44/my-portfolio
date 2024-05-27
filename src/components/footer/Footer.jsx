@@ -11,7 +11,7 @@ function Footer() {
         <div className="container max-w-screen-xl mx-auto px-4">
           <div className="text-center">
             <h1 className="font-medium text-gray-700 text-4xl md:text-5xl mb-5">
-              Testimonial
+              Contact
             </h1>
 
             <p className="font-normal text-gray-400 text-md md:text-lg mb-20">

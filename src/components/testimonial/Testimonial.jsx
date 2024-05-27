@@ -13,7 +13,7 @@ function Testimonial() {
             Here are some words from my bosses
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 text-center">
             <div className="bg-gray-50 px-8 py-10 rounded-md">
               <p className="font-normal text-gray-500 text-md mb-4">
                 Sakib, when you win, I win.
