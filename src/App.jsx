@@ -6,6 +6,7 @@ import Works from "./components/works/Works.jsx";
 import Education from "./components/education/Education.jsx";
 import Mysite from "./components/mysite/Mysite.jsx";
 import Experience from "./components/experience/Experience.jsx";
+import Album from "./components/album/Album.jsx";
 import Testimonial from "./components/testimonial/Testimonial.jsx";
 import Footer from "./components/footer/Footer.jsx";
 
@@ -21,6 +22,7 @@ function App() {
       <Education />
       <Mysite />
       <Experience />
+      <Album />
       <Testimonial />
       <Footer />
     </>
