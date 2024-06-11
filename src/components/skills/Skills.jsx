@@ -44,10 +44,10 @@ function Skills() {
   ];
   return (
     <>
-      <section className="py-10 md:py-16">
+      <section className="container max-w-screen-xl mx-auto px-4">
         <div
           style={{ backgroundColor: "#FFF" }}
-          className="container max-w-screen-xl mx-auto px-4 text-center"
+          className="text-center"
         >
           <h1 className="font-medium text-gray-700 text-3xl md:text-4xl pt-10 mb-5">
             Skills
