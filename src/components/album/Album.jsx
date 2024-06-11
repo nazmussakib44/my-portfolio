@@ -21,7 +21,7 @@ function Rig(props) {
   function Carousel({ radius = 1.8, count = 8 }) {
     return Array.from({ length: count }, (_, i) => (
       <Card
-        key={i}
+        key={`unique-${i}`}
         url={`/${Math.floor(i % 10) + 1}.webp`}
         position={[Math.sin((i / count) * Math.PI * 2) * radius, 0, Math.cos((i / count) * Math.PI * 2) * radius]}
         rotation={[0, Math.PI + (i / count) * Math.PI * 2, 0]}
@@ -60,7 +60,7 @@ function Album() {
           </h1>
           <div
             style={{ maxWidth: "100%", height: '500px', margin: "0 auto" }}
-            className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background pb-10 "
+            className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background pb-10 hide-scrollbar"
           >
             <Canvas camera={{ position: [0, 0, 100], fov: 15 }}>
                 <fog attach="fog" args={['#a79', 8.5, 12]} />
