@@ -47,6 +47,7 @@ function App() {
       />
       <Snowfall
         color="grey"
+        snowflakeCount={50}
         style={{
           position: "fixed",
           width: "100vw",
