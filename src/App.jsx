@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Snowfall from "react-snowfall";
 import Header from "./components/header/Header.jsx";
 import Skills from "./components/skills/Skills.jsx";
 import Overview from "./components/overview/Overview.jsx";
@@ -15,6 +16,14 @@ import "./App.css";
 function App() {
   return (
     <>
+      <Snowfall
+        color="red"
+        style={{
+          position: "fixed",
+          width: "100vw",
+          height: "100vh",
+        }}
+      />
       <Header />
       <Skills />
       <Overview />
