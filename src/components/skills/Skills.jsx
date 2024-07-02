@@ -113,15 +113,12 @@ function Skills() {
 
   return (
     <section className="container max-w-screen-xl mx-auto px-4">
-      <div style={{ backgroundColor: "#FFF" }} className="text-center">
-        <h1 className="font-medium text-gray-700 text-3xl md:text-4xl pt-10 mb-5">
-          Skills
-        </h1>
+      <div style={{ backgroundColor: "black", borderRadius:"10px" }} className="text-center">
         <div
           style={{ maxWidth: "100%", height: "500px", margin: "0 auto" }}
-          className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background pb-10 hide-scrollbar"
+          className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background hide-scrollbar"
         >
-          <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 70 }}>
+          <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 50 }}>
             <fog attach="fog" args={["#202025", 0, 80]} />
             <Suspense fallback={null}>
               <group rotation={[10, 10.5, 10]}>

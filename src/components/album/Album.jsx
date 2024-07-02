@@ -52,15 +52,12 @@ function Album() {
     <>
       <section className="container max-w-screen-xl mx-auto px-4">
         <div
-          style={{ backgroundColor: "#FFF" }}
+          style={{ backgroundColor: "black", borderRadius: "10px" }}
           className="text-center"
         >
-          <h1 className="font-medium text-gray-700 text-3xl md:text-4xl pt-10 mb-5">
-            Album
-          </h1>
           <div
             style={{ maxWidth: "100%", height: '500px', margin: "0 auto" }}
-            className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background pb-10 hide-scrollbar"
+            className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background hide-scrollbar"
           >
             <Canvas camera={{ position: [0, 0, 100], fov: 15 }}>
                 <fog attach="fog" args={['#a79', 8.5, 12]} />
