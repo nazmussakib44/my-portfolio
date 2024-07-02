@@ -12,7 +12,7 @@ function Mysite() {
 
             <p className="font-medium text-gray-700 text-xs md:text-base">
               In my extensive experience, I have utilized Laravel or Django for back-end projects and Vue.js or React.js for front-end projects. <br />
-              This website is created and developed using React, Tailwind CSS, Framer Motion, and Magic UI.
+              This website is created and developed using React, Tailwind CSS, React Three Fiber.
             </p>
           </div>
         </div>
