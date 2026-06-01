@@ -84,7 +84,7 @@ function Carousel({ radius = 3.1, count = 8 }) {
   return Array.from({ length: count }, (_, i) => (
     <Card
       key={`card-${i}`}
-      url={`${(i % 8) + 1}.png`}
+      url={`${(i % 8) + 1}.webp`}
       position={[
         Math.sin((i / count) * Math.PI * 2) * radius,
         0,

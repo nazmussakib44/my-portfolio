@@ -66,8 +66,8 @@ const projects = [
       "Mean Shift",
       "Random Forest",
     ],
-    live: "#",
-    github: "#",
+    live: "https://www.youtube.com/watch?v=kktKTlVDicA",
+    github: "",
   },
   {
     id: "06",

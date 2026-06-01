@@ -21,7 +21,7 @@ function Footer() {
 
             <div className="flex items-center justify-center space-x-8">
               <a
-                href="https://www.linkedin.com/in/nazmus-sakib-94518882/"
+                href="https://www.linkedin.com/in/i-am-nazmus-sakib/"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
                 <Linkedin className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500" />
