@@ -14,10 +14,10 @@ function Footer() {
               Contact
             </h1>
 
-<p className="font-normal text-gray-400 text-md md:text-lg mb-10">
-  Whether you have an opportunity, a project idea, or just want to connect, I’d
-  be happy to hear from you.
-</p>
+            <p className="font-normal text-gray-400 text-md md:text-lg mb-10">
+              Whether you have an opportunity, a project idea, or just want to
+              connect, I’d be happy to hear from you.
+            </p>
 
             <div className="flex items-center justify-center space-x-8">
               <a

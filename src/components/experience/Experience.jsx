@@ -62,7 +62,7 @@ function Experience() {
         </h1>
 
         <p className="font-normal text-gray-500 text-xs md:text-base mb-12 md:mb-16 max-w-2xl">
-          A timeline of the places where I worked and the roles I held.
+           A journey through my education, professional experience, and the milestones that have shaped my path.
         </p>
 
         <div className="relative ml-2 md:ml-4">
