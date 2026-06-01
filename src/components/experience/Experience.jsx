@@ -36,7 +36,7 @@ const experiences = [
   {
     period: "2014 - 2017",
     company: "Brac University",
-    location: "Dhaka",
+    location: "Dhaka, Bangladesh",
     role: "B.Sc. in Computer Science & Engineering",
     description:
       "Gained foundational knowledge in software engineering, data structures, algorithms, database systems, and computer architecture through undergraduate study.",
