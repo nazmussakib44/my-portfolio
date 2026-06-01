@@ -5,71 +5,82 @@ import { Billboard, Text, TrackballControls } from "@react-three/drei";
 
 function Word({ children, ...props }) {
   const color = new THREE.Color();
+  const ref = useRef();
+  const [hovered, setHovered] = useState(false);
+
   const fontProps = {
     font: "/Inter-Bold.woff",
-    fontSize: 2.5,
-    letterSpacing: -0.05,
+    fontSize: 1.45,
+    letterSpacing: -0.03,
     lineHeight: 1,
     "material-toneMapped": false,
   };
-  const ref = useRef();
-  const [hovered, setHovered] = useState(false);
-  const over = (e) => (e.stopPropagation(), setHovered(true));
-  const out = () => setHovered(false);
-  // Change the mouse cursor on hover¨
+
   useEffect(() => {
-    if (hovered) document.body.style.cursor = "pointer";
-    return () => (document.body.style.cursor = "auto");
+    document.body.style.cursor = hovered ? "pointer" : "auto";
+    return () => {
+      document.body.style.cursor = "auto";
+    };
   }, [hovered]);
-  // Tie component to the render-loop
-  useFrame(({ camera }) => {
+
+  useFrame(() => {
+    if (!ref.current) return;
+
     ref.current.material.color.lerp(
-      color.set(hovered ? "#fa2720" : "white"),
-      0.1
+      color.set(hovered ? "#111827" : "#4b5563"),
+      0.08
     );
   });
+
   return (
     <Billboard {...props}>
       <Text
         ref={ref}
-        onPointerOver={over}
-        onPointerOut={out}
         {...fontProps}
-        children={children}
-      />
+        onPointerOver={(e) => {
+          e.stopPropagation();
+          setHovered(true);
+        }}
+        onPointerOut={() => setHovered(false)}
+      >
+        {children}
+      </Text>
     </Billboard>
   );
 }
 
-function Cloud({ slugs, radius = 20 }) {
-  // Create words with spherical distribution
+function Cloud({ slugs, radius = 12 }) {
+  const groupRef = useRef();
+
   const words = useMemo(() => {
     const temp = [];
     const spherical = new THREE.Spherical();
+
     slugs.forEach((slug, index) => {
-      // Calculate phi and theta angles for spherical distribution
       const phi = Math.acos(-1 + (2 * (index + 1)) / (slugs.length + 1));
       const theta = Math.sqrt((slugs.length + 1) * Math.PI) * phi;
-      // Calculate position based on spherical coordinates
+
       const position = new THREE.Vector3().setFromSpherical(
         spherical.set(radius, phi, theta)
       );
+
       temp.push([position, slug]);
     });
+
     return temp;
   }, [slugs, radius]);
 
-  const groupRef = useRef();
-
-  // Use useFrame to update rotation for auto-rotation
   useFrame(() => {
-    groupRef.current.rotation.y += 0.001; // Adjust the speed as needed
+    if (!groupRef.current) return;
+    groupRef.current.rotation.y += 0.0012;
   });
 
   return (
     <group ref={groupRef}>
       {words.map(([pos, word], index) => (
-        <Word key={index} position={pos} children={word} />
+        <Word key={index} position={pos}>
+          {word}
+        </Word>
       ))}
     </group>
   );
@@ -85,48 +96,75 @@ function Skills() {
     "JavaScript",
     "React",
     "Vue.js",
-    "jQuery",
-    "Django (DRF)",
-    "Rest Knox",
     "FastAPI",
     "S3",
     "Rekognition",
     "EC2",
     "Maps API",
-    "Cloud Storage",
-    "Wallet API",
-    "Street View",
     "Three.js",
     "Konva.js",
     "Chart.js",
-    "GreenSock",
-    "A-Frame",
-    "Panellum",
-    "FullCalendar",
-    "Draggable",
-    "Drawflow",
     "React Native",
-    "NativeScript-Vue",
     "WordPress",
-    "Shopify"
+    "Shopify",
+    "Tailwind",
   ];
 
   return (
-    <section className="container max-w-screen-xl mx-auto px-4">
-      <div style={{ backgroundColor: "black", borderRadius:"10px" }} className="text-center">
-        <div
-          style={{ maxWidth: "100%", height: "500px", margin: "0 auto" }}
-          className="relative flex h-full w-full max-w-[32rem] flex items-center justify-center overflow-hidden rounded-lg bg-background hide-scrollbar"
-        >
-          <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 50 }}>
-            <fog attach="fog" args={["#202025", 0, 80]} />
-            <Suspense fallback={null}>
-              <group rotation={[10, 10.5, 10]}>
-                <Cloud slugs={slugs} radius={20} />
-              </group>
-            </Suspense>
-            <TrackballControls />
-          </Canvas>
+    <section className="py-10 md:py-16">
+      <div className="container max-w-screen-xl mx-auto px-4">
+        <div className="grid gap-10 lg:grid-cols-[320px,1fr] lg:items-center">
+          <div>
+            <h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
+              Skills
+            </h1>
+
+            <p className="font-normal text-gray-500 text-xs md:text-base leading-7 mb-6">
+              Technologies and tools I use to build reliable, scalable, and
+              user-focused digital products.
+            </p>
+
+            <div className="flex flex-wrap gap-2">
+              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
+                Frontend
+              </span>
+              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
+                Backend
+              </span>
+              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
+                Cloud
+              </span>
+              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-medium text-gray-700">
+                Tools
+              </span>
+            </div>
+          </div>
+
+          <div className="overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-sm">
+            <div className="relative h-[420px] md:h-[500px] bg-gradient-to-br from-white via-gray-50 to-gray-100">
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.95),rgba(243,244,246,0.75),rgba(229,231,235,0.45))]" style={{borderBottom: '10px solid #374151',
+    borderTop: '10px solid #374151'}} />
+
+              <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 22], fov: 50 }}>
+                <fog attach="fog" args={["#f3f4f6", 18, 34]} />
+                <ambientLight intensity={1.15} />
+                <directionalLight position={[3, 3, 2]} intensity={0.7} />
+
+                <Suspense fallback={null}>
+                  <group rotation={[0.15, 0.2, 0]}>
+                    <Cloud slugs={slugs} radius={12} />
+                  </group>
+                </Suspense>
+
+                <TrackballControls
+                  noPan
+                  noZoom
+                  rotateSpeed={1.4}
+                  dynamicDampingFactor={0.08}
+                />
+              </Canvas>
+            </div>
+          </div>
         </div>
       </div>
     </section>

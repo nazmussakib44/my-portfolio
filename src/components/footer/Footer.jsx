@@ -14,14 +14,14 @@ function Footer() {
               Contact
             </h1>
 
-            <p className="font-normal text-gray-400 text-md md:text-lg mb-20">
-              I’m not currently taking on new client work but feel free to
-              contact me for any <br /> technical suggestions.
+            <p className="font-normal text-gray-400 text-md md:text-lg mb-10">
+              Whether you have an opportunity, a project idea, or just want to
+              connect, I’d be happy to hear from you.
             </p>
 
             <div className="flex items-center justify-center space-x-8">
               <a
-                href="https://www.linkedin.com/in/nazmus-sakib-94518882/"
+                href="https://www.linkedin.com/in/i-am-nazmus-sakib/"
                 className="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500"
               >
                 <Linkedin className="text-gray-500 hover:text-gray-700 transition ease-in-out duration-500" />

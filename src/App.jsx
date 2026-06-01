@@ -57,10 +57,9 @@ function App() {
       <Header />
       <Skills />
       <Overview />
-      <Works />
-      <Education />
-      <Mysite />
       <Experience />
+      <Mysite />
+      <Works />
       <Album />
       <Testimonial />
       <Footer />
