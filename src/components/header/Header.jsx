@@ -11,7 +11,7 @@ function Header() {
           <nav className="flex items-center justify-between mb-40">
             <img src={navbarLogo} className="logo" alt="Logo" />
             <a href={resume} download className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">
-              Get my CV
+              Resume
             </a>
           </nav>
 
@@ -29,7 +29,7 @@ function Header() {
             </h1>
 
             <p className="font-normal text-gray-600 text-md md:text-xl mb-16">
-              I take pleasure in developing strong solutions that simplify life for people.
+              Software Engineer with 7+ years of experience building scalable web & mobile applications, APIs, and cloud-integrated solutions using PHP, Python, Node.js, Laravel, Django, FastAPI, React, Vue, AWS, and Google Cloud.
             </p>
 
             <a
