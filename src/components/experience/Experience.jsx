@@ -2,44 +2,44 @@ import { useEffect, useState } from "react";
 
 const experiences = [
   {
-    period: "2024 - Present",
-    company: "Code Rex",
-    location: "Dhaka",
-    role: "Innovation Engineer",
+    period: "2024 - 2026",
+    company: "Laurentian University",
+    location: "Sudbury, Ontario",
+    role: "M.Sc. in Computational Science",
     description:
-      "Driving product innovation, building scalable web solutions, and collaborating with teams to improve user experience and technical delivery.",
+      "Developed advanced knowledge in computational modeling, scientific computing, data analysis, and algorithm design through graduate-level study and research.",
   },
   {
-    period: "2023",
+    period: "2023 - 2024",
     company: "WebAlive",
-    location: "Melbourne",
+    location: "Melbourne, Australia",
     role: "Senior Software Engineer",
     description:
-      "Built responsive interfaces, improved reusable components, and delivered polished client-facing features across modern web applications.",
+      "Worked on web applications from planning to delivery, contributing to architecture, feature development, and technical decisions using PHP, Python, JavaScript, React, and Vue while collaborating with designers, developers, and stakeholders.",
   },
   {
-    period: "2021",
+    period: "2021 - 2023",
     company: "Bit Mascot",
-    location: "Dhaka",
+    location: "Dhaka, Bangladesh",
     role: "Software Engineer",
     description:
-      "Worked on scalable features, production fixes, and cross-functional development to support stable product releases.",
+      "Developed and enhanced web-based software systems with a focus on clean architecture, maintainability, performance, debugging, testing, and deployment support across multiple projects.",
   },
   {
-    period: "2019",
-    company: "Code Rex",
-    location: "Dhaka",
-    role: "Software Engineer",
+    period: "2017 - 2021",
+    company: "CodeRex",
+    location: "Dhaka, Bangladesh",
+    role: "Junior Software Engineer",
     description:
-      "Contributed to frontend and backend development, helped ship product improvements, and supported core engineering work.",
+      "Developed custom WordPress plugins, themes, Shopify features, and third-party cloud integrations while maintaining and extending client products based on business and project requirements.",
   },
   {
-    period: "2017",
-    company: "Code Rex",
+    period: "2014 - 2017",
+    company: "Brac University",
     location: "Dhaka",
-    role: "Junior Software Developer",
+    role: "B.Sc. in Computer Science & Engineering",
     description:
-      "Started my professional journey by supporting feature development, fixing issues, and learning team-based software delivery.",
+      "Gained foundational knowledge in software engineering, data structures, algorithms, database systems, and computer architecture through undergraduate study.",
   },
 ];
 
@@ -58,7 +58,7 @@ function Experience() {
     <section className="py-10 md:py-16">
       <div className="container max-w-screen-xl mx-auto px-4">
         <h1 className="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
-          Experience
+          My Timeline
         </h1>
 
         <p className="font-normal text-gray-500 text-xs md:text-base mb-12 md:mb-16 max-w-2xl">

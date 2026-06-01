@@ -93,7 +93,7 @@ const projects = [
   },
   {
     id: "08",
-    title: "Coderex",
+    title: "CodeRex",
     subtitle: "Headless WordPress Site with Next.js and GraphQL",
     description:
       "A modern headless WordPress website developed with Next.js and GraphQL, combining WordPress content management with a performant frontend architecture for flexible page rendering and scalable content delivery.",
