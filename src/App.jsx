@@ -57,10 +57,10 @@ function App() {
       <Header />
       <Skills />
       <Overview />
-      <Works />
-      <Education />
-      <Mysite />
       <Experience />
+      <Mysite />
+      <Works />
+      {/* <Education /> */}
       <Album />
       <Testimonial />
       <Footer />

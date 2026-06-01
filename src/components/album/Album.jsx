@@ -166,7 +166,8 @@ function Album() {
 
           <div className="overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-sm">
             <div className="relative h-[420px] md:h-[520px] bg-gradient-to-br from-white via-gray-50 to-gray-100">
-              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.95),rgba(243,244,246,0.82),rgba(229,231,235,0.45))]" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.95),rgba(243,244,246,0.82),rgba(229,231,235,0.45))]" style={{borderBottom: '10px solid #374151',
+    borderTop: '10px solid #374151'}} />
 
               <Canvas camera={{ position: [0, 0, 8.5], fov: 35 }}>
                 <fog attach="fog" args={["#f3f4f6", 5, 12]} />

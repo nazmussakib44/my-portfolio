@@ -28,7 +28,7 @@ function Header() {
               Senior Software Engineer
             </h1>
 
-            <p className="font-normal text-gray-600 text-md md:text-xl mb-16">
+            <p className="font-normal text-gray-400 text-sm md:text-base leading-7 md:leading-8 max-w-3xl mx-auto mb-10">
               Software Engineer with 7+ years of experience building scalable web & mobile applications, APIs, and cloud-integrated solutions using PHP, Python, Node.js, Laravel, Django, FastAPI, React, Vue, AWS, and Google Cloud.
             </p>
 
