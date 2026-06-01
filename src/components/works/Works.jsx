@@ -1,80 +1,128 @@
 const projects = [
   {
     id: "01",
-    title: "Traffic Sign Detection and Recognition",
-    subtitle: "Using Mean Shift and Hog Descriptor (Python OpenCV)",
+    title: "Exsited",
+    subtitle: "Microservice-Based Operations Platform",
     description:
-      "A system to detect and recognize road signs from a moving vehicle.",
-    image: "1.png",
-    tech: ["Python", "OpenCV", "Computer Vision"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-1",
+      "A scalable operations platform built with Java Spring, Python, and Vue.js, designed to connect business systems, automate workflows, and support features like branded PDF generation, audit-ready processes, and interactive business tools.",
+    image: "1.webp",
+    tech: [
+      "Java Spring",
+      "Python",
+      "Django",
+      "Stripe",
+      "PayPal",
+      "Vue.js",
+      "Microservices",
+    ],
+    live: "https://exsited.com/",
+    github: "",
   },
   {
     id: "02",
-    title: "Seating Allocation Builder",
-    subtitle: "For Event Bookings App",
+    title: "EventBookings",
+    subtitle: "Event Ticketing and Reserved Seating Platform",
     description:
-      "A complete builder where event admins draw tables and seats with categories, and attendees pick seats based on those categories.",
-    image: "2.png",
-    tech: ["React", "JavaScript", "UI Builder"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-2",
+      "A scalable event ticketing platform developed with PHP Laravel, React.js, and AWS S3, featuring reserved seating, registration workflows, and IdentityServer-based authentication for secure access across services.",
+    image: "2.webp",
+    tech: ["PHP Laravel", "React.js", "AWS S3", "IdentityServer"],
+    live: "https://eventbookings.com/",
+    github: "",
   },
   {
     id: "03",
     title: "Email Template & PDF Invoice Builder",
-    subtitle: "For Existing App",
+    subtitle: "Exsited Platform",
     description:
-      "A drag-and-drop builder for email templates and PDF invoices with AI-assisted design generation through the OpenAI API.",
-    image: "3.png",
-    tech: ["React", "OpenAI API", "Drag & Drop"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-3",
+      "A template builder developed with Vue.js, Vuex, Draggable.js, and OpenAI API for creating custom email templates and PDF invoices, supporting configurable layouts, dynamic content, and workflow-driven document generation inside the Exsited platform.",
+    image: "3.webp",
+    tech: ["Vue.js", "Vuex", "Draggable.js", "OpenAI API"],
+    live: "https://exsited.com/",
+    github: "",
   },
   {
     id: "04",
-    title: "Voice Clone Service Back-End",
-    subtitle: "FastAPI, OAuth2, Middleware, Swagger UI",
+    title: "Seating Allocation Builder",
+    subtitle: "EventBookings Platform",
     description:
-      "A backend integration service using Resemble AI to clone voices through AI-powered workflows.",
-    image: "4.png",
-    tech: ["Python", "FastAPI", "OAuth2"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-4",
+      "A custom seating allocation builder built with React.js, Redux, Konva.js, and React Draggable to help event organizers design seating plans, assign ticket categories, and provide attendees with an interactive seat selection experience.",
+    image: "4.webp",
+    tech: ["React.js", "Redux", "Konva.js", "React Draggable"],
+    live: "https://eventbookings.com/",
+    github: "",
   },
   {
     id: "05",
-    title: "AWS Rekognition Real-Time Face Detection",
-    subtitle: "From Live Stream Video",
+    title: "Traffic Sign Detection and Recognition",
+    subtitle: "Computer Vision System with OpenCV and Random Forest",
     description:
-      "A system to detect student attendance in university events and generate a dynamic gallery from live video streams.",
-    image: "5.png",
-    tech: ["AWS", "Python", "Rekognition"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-5",
+      "A traffic sign detection and recognition system developed with Python, OpenCV, Pandas, and Matplotlib, using Mean Shift clustering for localization and a Random Forest classifier for sign recognition from moving vehicle imagery.",
+    image: "5.webp",
+    tech: [
+      "Python",
+      "OpenCV",
+      "Pandas",
+      "Matplotlib",
+      "Mean Shift",
+      "Random Forest",
+    ],
+    live: "#",
+    github: "#",
   },
   {
     id: "06",
-    title: "WordPress Media Storage to Cloud",
-    subtitle: "Amazon S3, GCS, DigitalOcean and More",
+    title: "Voice Clone Service Back-End",
+    subtitle: "FastAPI Service with OAuth 2.0 Authentication",
     description:
-      "A plugin to back up and host WordPress media through cloud storage providers with full authentication support.",
-    image: "6.png",
-    tech: ["WordPress", "PHP", "Cloud Storage"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-6",
+      "A Python FastAPI backend built for voice cloning workflows with OAuth 2.0 authentication, integrating Resemble AI for voice generation and supporting techniques such as speaker encoding, speaker adaptation, and neural speech synthesis.",
+    image: "no.webp",
+    tech: ["Python", "FastAPI", "OAuth 2.0", "Resemble AI"],
+    live: "",
+    github: "",
   },
   {
     id: "07",
-    title: "WP VR 360 Panorama and Virtual Tour Creator",
-    subtitle: "For WordPress",
+    title: "AWS Rekognition Real-Time Face Detection",
+    subtitle: "Attendance and Live Event Gallery System",
     description:
-      "A WordPress plugin that helps users create immersive virtual tours for showcasing their business.",
-    image: "7.png",
-    tech: ["WordPress", "PHP", "Virtual Tour"],
-    live: "https://your-live-link.com",
-    github: "https://github.com/yourusername/project-7",
+      "A Python Django-based system built with AWS Rekognition API and AWS S3 to detect faces from live event video, support attendance tracking, and generate dynamic photo galleries from captured media.",
+    image: "no.webp",
+    tech: ["Python", "Django", "AWS Rekognition", "AWS S3"],
+    live: "",
+    github: "",
+  },
+  {
+    id: "08",
+    title: "Coderex",
+    subtitle: "Headless WordPress Site with Next.js and GraphQL",
+    description:
+      "A modern headless WordPress website developed with Next.js and GraphQL, combining WordPress content management with a performant frontend architecture for flexible page rendering and scalable content delivery.",
+    image: "8.webp",
+    tech: ["Next.js", "WordPress", "GraphQL", "WPGraphQL"],
+    live: "https://coderex.co/",
+    github: "",
+  },
+  {
+    id: "09",
+    title: "WordPress Media Storage to Cloud",
+    subtitle: "Cloud Media Offload Plugin for WordPress",
+    description:
+      "A WordPress plugin developed with PHP and TypeScript to offload media files to cloud storage providers such as Amazon S3 and Google Cloud Storage, with authenticated provider integration and cloud-based media delivery.",
+    image: "6.webp",
+    tech: ["PHP", "TypeScript", "AWS S3 SDK", "Google Cloud Storage SDK"],
+    live: "",
+    github: "",
+  },
+  {
+    id: "10",
+    title: "WP VR 360 Panorama and Virtual Tour Creator",
+    subtitle: "Interactive Virtual Tour Plugin for WordPress",
+    description:
+      "A WordPress virtual tour plugin developed with TypeScript, Pannellum, Video.js, and PHP, enabling clients to explore 360 images and videos with interactive hotspots, custom hotspot controls, and immersive tour experiences.",
+    image: "7.webp",
+    tech: ["TypeScript", "Pannellum", "Video.js", "PHP", "WordPress"],
+    live: "https://wordpress.org/plugins/wpvr/",
+    github: "",
   },
 ];
 
@@ -140,23 +188,27 @@ function Works() {
                     </div>
 
                     <div className="mt-6 flex items-center gap-5">
-                      <a
-                        href={project.live}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-sm font-medium text-gray-700 transition-colors hover:text-blue-600"
-                      >
-                        Live Demo
-                      </a>
+                      {project.live && (
+                        <a
+                          href={project.live}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-sm font-medium text-gray-500 transition-colors border-b border-gray-300 pb-1 hover:text-gray-700 hover:border-gray-700"
+                        >
+                          Live
+                        </a>
+                      )}
 
-                      <a
-                        href={project.github}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-sm font-medium text-gray-500 transition-colors hover:text-gray-700"
-                      >
-                        GitHub
-                      </a>
+                      {project.github && (
+                        <a
+                          href={project.github}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-sm font-medium text-gray-500 transition-colors border-b border-gray-300 pb-1 hover:text-gray-700 hover:border-gray-700 hover:text-gray-700"
+                        >
+                          GitHub
+                        </a>
+                      )}
                     </div>
                   </div>
                 </article>
