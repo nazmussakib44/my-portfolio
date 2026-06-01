@@ -60,7 +60,6 @@ function App() {
       <Experience />
       <Mysite />
       <Works />
-      {/* <Education /> */}
       <Album />
       <Testimonial />
       <Footer />

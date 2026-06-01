@@ -9,8 +9,9 @@ function Testimonial() {
             Testimonial
           </h1>
 
-          <p className="font-normal text-gray-500 text-xs md:text-base mb-10 md:mb-20">
-            Here are some words from my bosses
+          <p className="font-normal text-gray-500 text-xs md:text-base mb-10 md:mb-12 max-w-2xl leading-7">
+            A few words from people I have worked with about my contribution,
+            work ethic, and collaboration.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 text-center">
