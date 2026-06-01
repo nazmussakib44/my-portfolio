@@ -5,7 +5,7 @@ const projects = [
     subtitle: "Using Mean Shift and Hog Descriptor (Python OpenCV)",
     description:
       "A system to detect and recognize road signs from a moving vehicle.",
-    image: "1.webp",
+    image: "1.png",
     tech: ["Python", "OpenCV", "Computer Vision"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-1",
@@ -16,7 +16,7 @@ const projects = [
     subtitle: "For Event Bookings App",
     description:
       "A complete builder where event admins draw tables and seats with categories, and attendees pick seats based on those categories.",
-    image: "2.webp",
+    image: "2.png",
     tech: ["React", "JavaScript", "UI Builder"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-2",
@@ -27,7 +27,7 @@ const projects = [
     subtitle: "For Existing App",
     description:
       "A drag-and-drop builder for email templates and PDF invoices with AI-assisted design generation through the OpenAI API.",
-    image: "3.webp",
+    image: "3.png",
     tech: ["React", "OpenAI API", "Drag & Drop"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-3",
@@ -38,7 +38,7 @@ const projects = [
     subtitle: "FastAPI, OAuth2, Middleware, Swagger UI",
     description:
       "A backend integration service using Resemble AI to clone voices through AI-powered workflows.",
-    image: "4.webp",
+    image: "4.png",
     tech: ["Python", "FastAPI", "OAuth2"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-4",
@@ -49,7 +49,7 @@ const projects = [
     subtitle: "From Live Stream Video",
     description:
       "A system to detect student attendance in university events and generate a dynamic gallery from live video streams.",
-    image: "5.webp",
+    image: "5.png",
     tech: ["AWS", "Python", "Rekognition"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-5",
@@ -60,7 +60,7 @@ const projects = [
     subtitle: "Amazon S3, GCS, DigitalOcean and More",
     description:
       "A plugin to back up and host WordPress media through cloud storage providers with full authentication support.",
-    image: "6.webp",
+    image: "6.png",
     tech: ["WordPress", "PHP", "Cloud Storage"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-6",
@@ -71,7 +71,7 @@ const projects = [
     subtitle: "For WordPress",
     description:
       "A WordPress plugin that helps users create immersive virtual tours for showcasing their business.",
-    image: "7.webp",
+    image: "7.png",
     tech: ["WordPress", "PHP", "Virtual Tour"],
     live: "https://your-live-link.com",
     github: "https://github.com/yourusername/project-7",
