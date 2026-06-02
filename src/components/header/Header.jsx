@@ -37,6 +37,19 @@ function Header() {
               Nazmus Sakib
             </h6>
 
+            <div className="flex justify-center mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 shadow-sm">
+                <span className="relative flex h-3 w-3">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-50"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                </span>
+
+                <span className="font-normal text-gray-500 text-sm md:text-base">
+                  Ontario, Canada
+                </span>
+              </div>
+            </div>
+
             <h1 className="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
               Senior Software Engineer
             </h1>
